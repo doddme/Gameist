@@ -27,7 +27,7 @@ class DataViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.dataLabel!.text = dataObject
-        NSLog("inside DataViewController [this is inside brackets] this is not.")
+        NSLog("inside DataViewController [this is inside brackets].")
     }
 
 
